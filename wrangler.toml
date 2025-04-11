@@ -9,7 +9,7 @@ id = "4da186248d944d538ec433a407a9768c"
 
 workers_dev = true
 routes = [
-  { pattern = "inconigto-kensoko.my.id", custom_domain = true },
+  { pattern = "inconigto.kensoko.my.id", custom_domain = true },
   { pattern = "ava.game.naver.com.inconigto-kensoko.my.id", custom_domain = true },
   { pattern = "df.game.naver.com.inconigto-kensoko.my.id", custom_domain = true },
   { pattern = "graph.instagram.com.inconigto-kensoko.my.id", custom_domain = true },
