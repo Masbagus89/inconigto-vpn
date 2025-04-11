@@ -7,18 +7,6 @@ minify = true
 binding = "INCONIGTO"
 id = "39c18cd0a0d34c9ebeaafb8d8e36d7bb"
 
-workers_dev = true
-routes = [
-  { pattern = "inconigto.kensoko.my.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.inconigto.kensoko.my.id", custom_domain = true },
-  { pattern = "df.game.naver.com.inconigto.kensoko.my.id", custom_domain = true },
-  { pattern = "graph.instagram.com.inconigto.kensoko.my.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.inconigto.kensoko.my.id", custom_domain = true },
-  { pattern = "support.zoom.us.inconigto.kensoko.my.id", custom_domain = true },  
-  { pattern = "cache.netflix.com.inconigto.kensoko.my.id", custom_domain = true },
-]
-
-
 [build]
 command = "cargo install -q worker-build && worker-build --release"
 
